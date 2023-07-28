@@ -1,33 +1,39 @@
+/* App.css */
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
+/* styles for the header */
 .App-header {
-  background-color: #282c34;
+  background-color: rgb(26, 84, 201);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
+/* styles for the logo */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Add animation for the logo rotation */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/*styles for the link */
 .App-link {
   color: #61dafb;
 }
 
+/*keyframes for the logo rotation animation */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
